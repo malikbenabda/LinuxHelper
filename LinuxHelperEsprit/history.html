@@ -1,0 +1,605 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png">
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" 			media="screen and (max-device-width: 320px)" />  
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen@2x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+<link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen@3x.png" />
+<link rel="apple-touch-startup-image" sizes="1024x748" href="images/splash/splash-screen-ipad-landscape" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)" />
+<link rel="apple-touch-startup-image" sizes="768x1004" href="images/splash/splash-screen-ipad-portrait.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)" />
+<link rel="apple-touch-startup-image" sizes="1536x2008" href="images/splash/splash-screen-ipad-portrait-retina.png"   media="(device-width: 768px)	and (orientation: portrait)	and (-webkit-device-pixel-ratio: 2)"/>
+<link rel="apple-touch-startup-image" sizes="1496x2048" href="images/splash/splash-screen-ipad-landscape-retina.png"   media="(device-width: 768px)	and (orientation: landscape)	and (-webkit-device-pixel-ratio: 2)"/>
+
+<title>Epsilon Mobile Framework - Version 2.0</title>
+
+<link href="styles/style.css"     		 rel="stylesheet" type="text/css">
+<link href="styles/framework.css" 		 rel="stylesheet" type="text/css">
+<link href="styles/owl.carousel.css" 	 rel="stylesheet" type="text/css">
+<link href="styles/owl.theme.css" 		 rel="stylesheet" type="text/css">
+<link href="styles/swipebox.css"		 rel="stylesheet" type="text/css">
+<link href="styles/font-awesome.css"	 rel="stylesheet" type="text/css">
+<link href="styles/animate.css"			 rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/jqueryui.js"></script>
+<script type="text/javascript" src="scripts/framework.plugins.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript" >
+
+			document.addEventListener('tizenhwkey', function(e) {
+			    if(e.keyName == "back") {
+			        try {
+			        	window.history.back();
+			        } catch (error) {
+			            console.error("getCurrentApplication(): " + error.message);
+			        }
+			    }
+			});
+
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/jquery-ui.js" type="text/javascript"></script>
+         <link href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/themes/blitzer/jquery-ui.css"
+         rel="stylesheet" type="text/css" />
+         <script type="text/javascript">
+ 
+                 setTimeout("afficheTexte0()",000);
+                 function afficheTexte0()
+                 {
+                        var x = document.getElementById("changer");
+                        x.setAttribute("src", "styles/clickMe01.png");
+
+                 }
+
+                 setTimeout("afficheTexte1()",1000);
+                 function afficheTexte1()
+                 {
+                        var x = document.getElementById("changer");
+                        x.setAttribute("src", "styles/clickMe01.png");
+                 }
+
+                 setTimeout("afficheTexte2()",2000);
+                 function afficheTexte2()
+                 {
+                        var x = document.getElementById("changer");
+                        x.setAttribute("src", "styles/clickMe02.png");
+                 }
+                 setTimeout("afficheTexte3()",3000);
+                 function afficheTexte3()
+                 {
+                        var x = document.getElementById("changer");
+                        x.setAttribute("src", "styles/clickMe03.png");
+                 }
+
+                 setTimeout("afficheTexte4()",4000);
+                 function afficheTexte4()
+                 {
+                        var x = document.getElementById("changer");
+                        x.setAttribute("src", "styles/clickMe02.png");
+                 }
+
+                 setTimeout("afficheTexte5()",5000);
+                 function afficheTexte5()
+                 {
+                        var x = document.getElementById("changer");
+                        x.setAttribute("src", "styles/clickMe01.png");
+                 }
+
+                 setTimeout("afficheTexte6()",6000);
+                 function afficheTexte6()
+                 {
+                        var x = document.getElementById("changer");
+                        x.style.display = "none";
+                 }
+
+$(function () {
+$("#dialogLinus").dialog({
+modal: true,
+autoOpen: false,
+title: "Linux Torvalds",
+width: 300,
+height: 400
+    });
+    $("#btnLinus").click(function () {  
+    $('#dialogLinus').dialog('open');
+    });
+     
+});
+
+
+$(function () {
+$("#dialogStallman").dialog({
+modal: true,
+autoOpen: false,
+title: "richard stallman",
+width: 300,
+height: 400
+    });
+
+	$("#btnStallman").click(function () {
+    $('#dialogStallman').dialog('open');
+    
+    });
+     
+});
+$(function () {
+$("#dialogLinux").dialog({
+modal: true,
+autoOpen: false,
+title: "Linux",
+width: 300,
+height: 400
+    });
+    $("#btnLinux").click(function () {
+    $('#dialogLinux').dialog('open');
+    
+    });
+     
+});
+$(function () {
+$("#dialogGnu").dialog({
+modal: true,
+autoOpen: false,
+title: "Gnu",
+width: 300,
+height: 400
+    });
+    $("#btnGnu").click(function () {
+    $('#dialogGnu').dialog('open');
+    
+    });
+     
+});
+$(function () {
+$("#dialogGnuLinux").dialog({
+modal: true,
+autoOpen: false,
+title: "Gnu/Linux",
+width: 300,
+height: 400
+    });
+    $("#btnGnuLinux").click(function () {
+    $('#dialogGnuLinux').dialog('open');
+    
+    });
+     
+});
+
+$(function () {
+$("#dialogSlack").dialog({
+modal: true,
+autoOpen: false,
+title: "Slack",
+width: 300,
+height: 400
+    });
+    $("#btnSlack").click(function () {
+    $('#dialogSlack').dialog('open');
+    
+    });
+     
+});
+
+$(function () {
+$("#dialogRed").dialog({
+modal: true,
+autoOpen: false,
+title: "Red Hat",
+width: 300,
+height: 400
+    });
+    $("#btnRed").click(function () {
+    $('#dialogRed').dialog('open');
+    
+    });
+     
+});
+$(function () {
+$("#dialogDebian").dialog({
+modal: true,
+autoOpen: false,
+title: "Debian",
+width: 300,
+height: 400
+    });
+    $("#btnDebian").click(function () {
+    $('#dialogDebian').dialog('open');
+    
+    });
+     
+});
+$(function () {
+$("#dialogOpenSuse").dialog({
+modal: true,
+autoOpen: false,
+title: "OpenSuse",
+width: 300,
+height: 400
+    });
+    $("#btnOpenSuse").click(function () {
+    $('#dialogOpenSuse').dialog('open');
+    
+    });
+     
+});
+$(function () {
+$("#dialogKnoppix").dialog({
+modal: true,
+autoOpen: false,
+title: "Knoppix",
+width: 300,
+height: 400
+    });
+    $("#btnKnoppix").click(function () {
+    $('#dialogKnoppix').dialog('open');
+    
+    });
+     
+});
+
+$(function () {
+$("#dialogFedora").dialog({
+modal: true,
+autoOpen: false,
+title: "Fedora",
+width: 300,
+height: 400
+    });
+    $("#btnFedora").click(function () {
+    $('#dialogFedora').dialog('open');
+    
+    });
+     
+});
+$(function () {
+$("#dialogOracle").dialog({
+modal: true,
+autoOpen: false,
+title: "Oracle",
+width: 300,
+height: 400
+    });
+    $("#btnOracle").click(function () {
+    $('#dialogOracle').dialog('open');
+    
+    });
+     
+});
+$(function () {
+$("#dialogUbuntu").dialog({
+modal: true,
+autoOpen: false,
+title: "Ubuntu",
+width: 300,
+height: 400
+    });
+    $("#btnUbuntu").click(function () {
+    $('#dialogUbuntu').dialog('open');
+    
+    });
+     
+});
+$(function () {
+$("#dialogKubuntu").dialog({
+modal: true,
+autoOpen: false,
+title: "Kubuntu",
+width: 300,
+height: 400
+    });
+    $("#btnKubuntu").click(function () {
+    $('#dialogKubuntu').dialog('open');
+    
+    });
+     
+});
+$(function () {
+$("#dialogXubuntu").dialog({
+modal: true,
+autoOpen: false,
+title: "Xubuntu",
+width: 300,
+height: 400
+    });
+    $("#btnXubuntu").click(function () {
+    $('#dialogXubuntu').dialog('open');
+    
+    });
+     
+});
+$(function () {
+$("#dialogMint").dialog({
+modal: true,
+autoOpen: false,
+title: "Mint",
+width: 300,
+height: 400
+    });
+    $("#btnMint").click(function () {
+    $('#dialogMint').dialog('open');
+    
+    });
+     
+});
+    </script>
+
+
+</head>
+<body>
+<div id="preloader">
+	<div id="status">
+    	<p class="center-text">
+			Loading the content...
+            <em>Loading depends on your connection speed!</em>
+        </p>
+    </div>
+</div>
+
+<div class="navigation-header">
+	<a class="deploy-navigation" href="#"> <img src="images/down.png" class="imageMenuTop"> </a>
+    <a class="close-navigation" href="#"> <img src="images/up.png" class="imageMenuTop"></a>
+    <em>History</em>
+    <a href="contact.html"></a>
+</div> <!-- navigation-header --> 
+
+
+
+<div class="navigation-header-clear"></div>
+
+
+<div class="page-navigation">
+
+	<div class="nav-clear"></div>
+
+
+    <div class="nav-item">
+        <a href="index.html">
+            <img src="images/home.png" class="imageMenu">
+                HomeScreen
+        </a>
+    </div> <!-- div nav-item --> 
+
+
+    <div class="nav-item">
+        <a href="searchEngine.html">
+            <img src="images/searchScope.png" class="imageMenu">
+                SearchEngine
+        </a>
+    </div> <!-- div nav-item --> 
+
+    <div class="nav-item">
+        <a href="history.html">
+            <img src="images/historyIcon.png" class="imageMenu">
+                LinuxHitory
+        </a>
+    </div> <!-- div nav-item --> 
+
+    <div class="nav-item">
+        <a class="submenu-deploy" href="#">
+            <img src="images/tips.png" class="imageMenu">
+                tips
+            <i class="fa fa-angle-down"></i>
+        </a>
+        <div class="submenu-items">
+            <a href="beginner.html"> <img src="images/tips/troll.png" class="imageMenu"> Begginer </a>
+            </div> <!-- div submenu-deploy --> 
+    </div> <!-- div nav-item --> 
+
+    <div class="nav-item">
+        <a href="tutorial.html">
+            <img src="images/tutos.png" class="imageMenu">
+                Tutorial
+        </a> 
+        <div class="submenu-items">
+
+        </div>
+    </div> <!-- div nav-item --> 
+
+
+    <div class="nav-item">
+        <a class="submenu-deploy" href="#">
+            <img src="images/tools.png" class="imageMenu">
+                Tools
+            <i class="fa fa-angle-down"></i>
+        </a>
+        <div class="submenu-items">
+            <a href="gimp.html"> <img src="images/pictures/gimp.png" class="imageMenu"> Gimp </a>
+            <a href="gparted.html"> <img src="images/pictures/gparted.png" class="imageMenu"> Gparted </a>
+            <a href="virtualbox.html"> <img src="images/pictures/virtualbox.png" class="imageMenu"> VirtualBox </a>
+            <a href="vim.html"> <img src="images/pictures/vim.png" class="imageMenu"> Vim </a>
+        </div>
+    </div> <!-- div nav-item --> 
+
+
+    <div class="nav-item">
+        <a href="quizz.html">
+            <img src="images/quizz.png" class="imageMenu">
+                Quizz
+        </a>
+
+        <div class="submenu-items">
+
+        </div>
+    </div> <!-- div nav-item --> 
+
+    <div class="nav-item">
+        <a href="test.html">
+            <img src="images/test.png" class="imageMenu">
+                Test
+        </a>       
+    </div> <!-- div nav-item --> 
+</div> <!-- div page-navigation -->  
+
+         <img src="images/historyALL1000.jpg"  class="imageHistory" >
+
+         <img id="changer">  
+                            
+
+
+        <input type="button" id="btnLinus" class="buttonHistory buttonLinus" />
+        <input type="button" id="btnStallman" class="buttonHistory buttonStallman" />
+        <input type="button" id="btnLinux" class="buttonHistory buttonLinux" />
+        <input type="button" id="btnGnu" class="buttonHistory buttonGnu" />
+        <input type="button" id="btnGnuLinux" class="buttonHistory buttonGnuLinux" />
+        <input type="button" id="btnSlack" class="buttonHistory buttonSlack" />
+        <input type="button" id="btnRed" class="buttonHistory buttonRed" />
+        <input type="button" id="btnDebian" class="buttonHistory buttonDebian" />
+        <input type="button" id="btnOpenSuse" class="buttonHistory buttonOpenSuse" />
+        <input type="button" id="btnKnoppix" class="buttonHistory buttonKnoppix" />
+        <input type="button" id="btnFedora" class="buttonHistory buttonFedora" />
+        <input type="button" id="btnOracle" class="buttonHistory buttonOracle" />
+        <input type="button" id="btnUbuntu" class="buttonHistory buttonUbuntu" />
+        <input type="button" id="btnKubuntu" class="buttonHistory buttonKubuntu" />
+        <input type="button" id="btnXubuntu" class="buttonHistory buttonXubuntu" />
+        <input type="button" id="btnMint" class="buttonHistory buttonMint" />
+
+        <div id="dialogLinus" style="display: none" align="center">
+            Linus Benedict Torvalds born December 28, 1969) is a Finnish-American software engineer,
+            who is the creator of the Linux kernel and for a long time, 
+            principal developer that became the kernel for operating systems 
+            (and many distributions of each), such as GNU and years later Android and Chrome OS. <br />
+            He also created the distributed revision control system git. He was honored, along with Shinya Yamanaka, 
+            with the 2012 Millennium Technology Prize by the Technology Academy Finland "in 
+            recognition of his creation of a new open source operating system 
+            for computers leading to the widely used Linux kernel". <br /> 
+            He is also the recipient of the 2014 IEEE Computer Society Computer Pioneer Award. <br />
+        </div>
+        
+        <div id="dialogStallman" style="display: none" align="center">
+            Richard Matthew Stallman (born March 16, 1953), often known by his initials, 
+            rms, is a software freedom activist and computer programmer. <br /> 
+            He campaigns for software to be distributed in a manner such that its 
+            users receive the freedoms to use, study, distribute and modify that software. <br />
+            Software that ensures these freedoms is termed free software. <br />
+            Stallman launched the GNU Project, founded the Free Software Foundation, 
+            developed the GNU Compiler Collection and GNU Emacs, 
+            and wrote the GNU General Public License. <br />
+        </div>
+        <div id="dialogLinux" style="display: none" align="center">
+            Linux is a Unix-like and mostly POSIX-compliant computer operating system (OS) 
+            assembled under the model of free and open-source software development and 
+            distribution. <br />
+             The defining component of Linux is the Linux kernel, an operating system kernel 
+             first released on 5 October 1991 by Linus Torvalds. <br />
+             The Free Software Foundation uses the name GNU/Linux to describe the operating 
+             system, which has led to some controversy. <br />
+        </div>
+        <div id="dialogGnu" style="display: none" align="center">
+            The GNU General Public License (GNU GPL or GPL) is a widely used free software license, 
+            which guarantees end users (individuals, organizations, companies) the freedoms to run,
+             study, share (copy), and modify the software. <br />
+              Software that allows these rights is called free software and, 
+              if the software is copylefted, requires those rights to be retained. <br /> 
+              The GPL demands both. <br />
+               The license was originally written by Richard Stallman of the Free Software 
+               Foundation (FSF) for the GNU Project. <br />
+        </div>
+        <div id="dialogGnuLinux" style="display: none" align="center">
+            The GNU/Linux naming controversy is a dispute among members of the free and open source 
+            software community over whether to refer to computer operating systems that use a 
+            combination of GNU software and the Linux kernel as "GNU/Linux" or "Linux". <br />
+            GNU/Linux is a term promoted by the Free Software Foundation (FSF) 
+            and its founder Richard Stallman. <br /> 
+            They argue that GNU was a longstanding project begun in 1984 to develop a 
+            free operating system, and that when the Linux kernel was independently created 
+            in 1991, it merely provided a substantial missing piece. <br />
+        </div>
+        <div id="dialogSlack" style="display: none" align="center">
+            Slackware is a Linux distribution created by Patrick Volkerding in 1993. <br />
+            Originally based on Softlanding Linux System, Slackware has been the basis 
+            for many other Linux distributions, most notably the first versions of SUSE 
+            Linux distributions, and is the oldest distribution that is still maintained 
+        </div>
+        <div id="dialogRed" style="display: none" align="center">
+            Red Hat, is an American multinational software company providing open-source software
+            products to the enterprise community. <br />
+            Founded in 1993, Red Hat has its corporate headquarters in Raleigh, 
+            North Carolina, with satellite offices worldwide. <br />
+            Red Hat has become associated to a large extent with its enterprise operating system 
+            Red Hat Enterprise Linux and with the acquisition of open-source enterprise 
+            middleware vendor JBoss. <br /> 
+        </div>
+        <div id="dialogDebian" style="display: none" align="center">
+            Debian is a Unix-like computer operating system that is composed entirely of free 
+            software, most of which is under the GNU General Public License, and packaged by 
+            a group of individuals known as the Debian Project. <br />
+            Three main branches are offered: Stable, Testing and Unstable. <br />
+            The Debian Stable Linux distribution is one of the most popular for personal 
+            computers and network servers, and has been used as a base for several 
+            other distributions. 
+        </div>
+        <div id="dialogOpenSuse" style="display: none" align="center">
+            openSUSE, formerly SUSE Linux and SuSE Linux Professional, is a Linux-based project 
+            and distribution sponsored by SUSE Linux GmbH and other companies. <br />
+            It is widely used throughout the world, particularly in Germany. <br /> 
+            The focus of its development is creating usable open-source tools for software 
+            developers and system administrators, while providing a user-friendly desktop, 
+            and feature-rich server environment. <br />
+        </div>
+        <div id="dialogKnoppix" style="display: none" align="center">
+            Knoppix , is an operating system based on Debian designed to be run directly from a CD
+             / DVD (Live CD) or a USB flash drive (Live USB), one of the first of its kind for any operating system. <br />
+              Knoppix was developed by, and named after, Linux consultant Klaus Knopper. <br />
+              When starting a program, it is loaded from the removable medium and decompressed 
+              into a RAM drive. <br /> The decompression is transparent and on-the-fly. <br />
+        </div>
+        <div id="dialogFedora" style="display: none" align="center">
+            Fedora (formerly Fedora Core) is an operating system based on the Linux kernel, 
+            developed by the community-supported Fedora Project and sponsored by Red Hat. <br />
+            Fedora contains software distributed under a free and open-source license and aims to
+            be on the leading edge of such technologies. <br />
+            Fedora has an estimated 1.2 million users, among them Linus Torvalds, creator of the 
+            Linux kernel, who uses Fedora on all of his computers. <br />
+        </div>
+        <div id="dialogOracle" style="display: none" align="center">
+            Oracle Linux, formerly known as Oracle Enterprise Linux, is a Linux distribution 
+            based on Red Hat Enterprise Linux (RHEL), repackaged and freely distributed by Oracle,
+            available under the GNU General Public License (GPL) since late 2006.
+            Oracle Linux can be downloaded through Oracle's E-delivery service or from a variety 
+            of mirror sites, and can be deployed and distributed without cost. <br />
+            Commercial technical support is available through Oracle's Oracle Linux Support 
+            program, which supports Oracle Linux, and existing RHEL or CentOS installations 
+            (i.e. without reinstallation). <br />
+             As of 2013, Oracle Linux has over 11,000 customers subscribed to the support program. <br />
+        </div>
+        <div id="dialogUbuntu" style="display: none" align="center">
+            Ubuntu is a Debian-based Linux operating system and distribution for personal computers, 
+            smartphones and network servers. <br />
+            It uses Unity as its default user interface. <br />
+            It is based on free software and named after the Southern African philosophy of ubuntu
+            (literally, "human-ness"), which often is translated as "humanity towards others" or 
+            "the belief in a universal bond of sharing that connects all humanity". <br />
+        </div>
+        <div id="dialogKubuntu" style="display: none" align="center">
+            Kubuntu is an official flavour of the Ubuntu operating system which uses the KDE Plasma 
+            Desktop instead of the Unity graphical environment. <br />
+            As part of the Ubuntu project, Kubuntu uses the same underlying systems. <br />
+            Every package in Kubuntu shares the same repositories as Ubuntu, and it is released 
+            regularly on the same schedule as Ubuntu. <br />
+        </div>
+        <div id="dialogXubuntu" style="display: none" align="center">
+            Xubuntu is a Canonical Ltd.–recognized, community-maintained derivative of the Ubuntu operating system. <br />
+            The name Xubuntu is a portmanteau of Xfce and Ubuntu, as it uses the Xfce desktop 
+            environment, instead of Ubuntu's Unity. <br />
+
+
+        </div>
+        <div id="dialogMint" style="display: none" align="center">
+            Linux Mint is a community-driven Linux distribution based on Debian and Ubuntu 
+            that strives to be a modern, elegant and comfortable operating system which 
+            is both powerful and easy to use. <br />
+            Linux Mint provides full out-of-the-box multimedia support by including some 
+            proprietary software and comes bundled with a variety of free and 
+            open-source applications.[6][7] Its motto is "from freedom came elegance. <br />
+        </div>
+
+
+</div>
+    
+
+</body>
+</html>
+

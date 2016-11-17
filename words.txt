@@ -1,0 +1,13 @@
+linux 
+gnu 
+ubuntu
+kubuntu
+fedora
+archlinux
+mint
+operating system
+lpic
+tutorial
+quiz
+test
+

@@ -1,0 +1,140 @@
+{"quizlist":[
+  
+	{
+	"question":"Suppose that you have an application whose behavior depends on the environment variable BAR. Which of the following command lines may be used in a bash shell to configure the application?",
+	"option1":"BAR=baz ; export BAR",
+	"option2":"export $BAR=baz; echo $BAR",
+	"option3":"declare -x BAR=baz"
+	},
+	{
+	"question":"Which of the following commands can be used to assure that a file 'myfile' exists?",
+	"option1":"touch myfile",
+	"option2":"cp myfile /dev/null",
+	"option3":"mkfile myfile"
+	},
+	{
+	"question":"Which of the following command lines can be used to convert a file containing DOS-style CR-LF line endings into Unix-style LF line endings? Assume for this question that the DOS-style file is called 'dosfile', and we want the modified contents in 'unixfile'",
+	"option1":"tr -d '\r' < dosfile > unixfile",
+	"option2":"dos2unix dosfile unixfile",
+	"option3":"strip '\r' < dosfile > unixfile"
+	},
+	{
+	"question":"Suppose for this question that you have a file called 'wordlist' that contains a number of words, one per line. You would like to produce an ad-hoc report that contains a numbered list of the first five words, according to alphabetical order. Which of the following command lines can be used to produce this report to the console?",
+	"option1":"sort wordlist | nl | head -5",
+	"option2":"split -1 wordlist ; cat xa? | head -5",
+	"option3":"nl wordlist | sort | sed '/^     [^12345]/d'"
+	},		
+	{
+	"question":"The command 'ps -A' displays an ordered list of all running processes, with the right-justifed process ID in the first space-separated field. Suppose you would like to display to screen a list of the five most recently launched processes (those with the highest process IDs). Which of the following commands will display the desired items?",
+	
+	"option1":"ps -A | tac | head -5 | cut -b 1-5",
+	"option2":"ps -A | tail -5 | cut -f 1 -d ",
+	"option3":"ps -A | head -5 | nl"
+	},	
+	{
+	"question":"Suppose that a file names contains a list of names in the form, firstname lastname, one per line. These names are unsorted, and you would like them sorted by lastname; however, the format of names on each line should remain the same. Which ONE of the following commands will NOT output an appropriately sorted list of names to the console?",
+	
+	"option1":"cut -f 2 -d  names | sort",
+	"option2":"cut -f 2 -d  names | paste names - | sort -k 3 | cut -f 1",
+	"option3":"cut -f 2 -d  names | paste - names | sort | cut -f 2"
+	},
+	{
+	"question":"Assume that your current working directory is '/tmp' and your home directory is '/home/jane'. Which of the below commands will copy all the content of '/tmp/test/' to a 'test' subdirectory of your home directory?",
+	
+	"option1":"cp -r ./test ~",
+	"option2":"cp -r test/* /home/jane",
+	"option3":"cp -r ~/test ."
+	},
+	{
+	"question":"Suppose that you have several files matching the filename pattern 'file[0-9]'. You would like to visually compare the contents of all such files, in a side-by-side fashion. Which of the following commands would let you view the desired ad hoc report?",
+	
+	"option1":"ls file[0-9] | xargs paste | less",
+	"option2":"cat file[0-9] | paste - | more | less",
+	"option3":"ls *word* > fnames ; paste < xargs `cat fnames` | vi"
+	},
+	{
+	"question":"Which of the following Linux utilities does NOT include the capability to list the process IDs of running applications?",
+	
+	"option1":"nice",
+	"option2":"jobs",
+	"option3":"ps"
+	},
+	{
+	"question":"Suppose you have a running program called 'myprog', that is a child of the current shell. You would like to decrease the CPU usage of this program. Which of the following command lines can you use to make 'myprog' yield more CPU resources?",
+	
+	"option1":"renice +1 -p `ps -a | grep myprog | cut -b 1-6`",
+	"option2":"renice +1 -u `whoami` myprog",
+	"option3":" nice +1 myprog"
+	},
+	{
+	"question":"Based on Linux partition naming system, which of the following device names point to logical partitions (assuming the corresponding partitions exist at all on the system in question)?",
+	
+	"option1":"/dev/hdb7",
+	"option2":"/dev/sda3",
+	"option3":" /dev/hda4"
+	},
+	{
+	"question":"Which of the following command lines can (possibly) be used to format a partition? Assume required partitions exist, and also that logical partitioning is used on each hard-disk.",
+	
+	"option1":" mkfs -t msdos /dev/sda1",
+	"option2":"mkfs.ext2 /dev/null",
+	"option3":"mkfs -t ext2 /dev/hda4"
+	},
+	{
+	"question":"Which Linux command can be used to repair improperly shutdown, or otherwise potentially corrupt partitions?",
+	
+	"option1":"fsck",
+	"option2":"chkdsk",
+	"option3":"fdisk"
+	},
+	{
+	"question":"Which of the following command lines will produce an ad hoc report on the total disk space used personally by the current user?",
+	
+	"option1":"du -hs ~",
+	"option2":"df ~/.",
+	"option3":"fsck ~"
+	},
+	{
+	"question":"Which Linux command can be used to determine the available space on local hard-disk partitions?",
+	
+	"option1":"df",
+	"option2":"fdisk",
+	"option3":"free"
+	},
+	{
+	"question":"Which Linux command can be used to limit the disk space usage allowance of a particular user? Assume for this question that quotas are enabled for the filesystem(s) in use on the system in question.",
+	
+	"option1":"edquota",
+	"option2":"setquota",
+	"option3":"repquota"
+	},
+	{
+	"question":"Suppose you have created a new application 'myapp', and copied it to the directory '/usr/local/bin'. You would like all the users of the system to be able to run your application. Which of the following command lines would allow the appropriate access?",
+	
+	"option1":"chmod o+x /usr/local/bin/myapp",
+	"option2":"chgrp bin /usr/local/bin/myapp",
+	"option3":"chown 755 /usr/local/bin/myapp"
+	},
+	{
+	"question":"One advantage of hard links over symbolic links is:",
+	
+	"option1":"A hard link does not become disconnected from the underlying file if the file is moved.",
+	"option2":"A hard link can span different filesystems",
+	"option3":"A hard link allows you to change the permissions on the underlying file."
+	},
+	{
+	"question":"According to the Linux filesystem hierarchy standard, which of the following directories would be an appropriate location for a user to install a shared application to?",
+	
+	"option1":"/usr/local/bin",
+	"option2":"/dev/user/bin",
+	"option3":"/etc/bin"
+	},
+	{
+	"question":"Which of the following Linux command lines can be used to examine kernel bootup messages after boot time?",
+	
+	"option1":"dmesg | less",
+	"option2":"less /proc/kmsg",
+	"option3":"vi /var/log/messages"
+	}
+]
+}

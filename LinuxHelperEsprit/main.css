@@ -1,0 +1,178 @@
+html, body {
+	margin: 0;
+	padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+	    }
+
+
+        .nextQuestion{
+
+        }
+
+#navContent{
+margin:auto;	
+width:800px;
+height:400px;
+position:relative;
+overflow:hidden;
+}
+
+#game1{
+margin:auto;
+/* width:800px;
+height:500px;
+ * */
+right:0px;
+position:absolute;
+}
+
+#game2{
+margin:auto;	
+/*
+width:800px;
+height:500px;
+*/
+right:-800px;
+position:absolute;
+} 
+
+
+
+ 
+.questionText{
+  padding-bottom: 20px;
+font-size: 20px;
+color: white;
+font-family: ubuntu,helvitica,serif;
+text-align: left;
+}
+
+.nextQuestion{
+   width: 100%;
+font-size: 180%;
+color: #dd4814;
+padding: 10px;
+padding-left: 10px;
+border: 10px solid white;
+cursor: pointer;
+background-color: white;
+margin-top: 20px;
+text-align: center;
+border-radius: 250px;
+}
+
+.tryAgain{
+   width: 100%;
+font-size: 180%;
+color: #dd4814;
+padding: 10px;
+padding-left: 10px;
+border: 10px solid white;
+cursor: pointer;
+background-color: white;
+margin-top: 20px;
+text-align: center;
+border-radius: 250px;
+     
+}
+
+.allTests{
+width: 100%;
+font-size: 180%;
+color: #dd4814;
+padding: 10px;
+padding-left: 10px;
+border: 10px solid white;
+cursor: pointer;
+background-color: white;
+margin-top: 20px;
+text-align: center;
+border-radius: 250px;
+     
+}
+
+.option{
+font-size: 18px;
+color: #FFFFFF;
+padding: 10px;
+padding-left: 13px;
+border: 2px dotted gray;
+cursor: pointer;
+background-color: #D58ED0;
+border-radius: 20px;
+margin: 25px 0px;
+}
+
+.option:hover{
+border:#FC0 solid 2px;
+color:#FC0;
+}
+
+
+		
+
+
+
+
+
+
+
+ 
+
+#topbar{
+height:50px;
+margin:auto;
+margin-top:50px;
+color:#FFF;
+font-size:36px;
+font-family:Arial, Helvetica, sans-serif;
+width:800px;
+border-bottom:solid white 1px;
+}
+ 
+.spacer{
+height:30px;
+}
+
+ 
+
+
+
+
+.feedback1{
+width: 100%;
+margin-top: 20px;
+font-size: 400%;
+color: white;
+background-color: rgba(20, 220, 60, 0.5);
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+height: 100px;
+padding-top: 15%;
+border-radius: 25px;
+}
+
+.feedback2{
+width: 100%;
+margin-top: 20px;
+font-size: 400%;
+color: white;
+background-color: rgba(220, 20, 60, 0.5);
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+height: 100px;
+padding-top: 15%;
+border-radius: 25px;
+}
+ 
+ 
+@media screen and (max-width:800px) {
+	#topbar{margin-left:1%;margin-right:1%;	width:96%;}
+	#navContent{margin:1%;	width:98%;}
+	#game1{margin:1%;	width:98%;}
+	#game2{margin:1%;	width:98%;}
+
+
+}
+@media screen and (max-width:460px) {
+}

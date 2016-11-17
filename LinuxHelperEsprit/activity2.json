@@ -1,0 +1,143 @@
+{"quizlist":[
+	{
+	"question":"Proper file security is particularly important for CGI applications invoked over the web, given the diversity of users. Which of the command lines setup reasonable file permissions for a CGI applications? Even though particular web servers may require slightly different configurations, you should be able to rule out all the wrong answers below.",
+	
+	"option1":"chmod 711 ~/www/cgi-bin/myapp.cgi",
+	"option2":"chmod a-x ~/www/cgi-bin/myapp.cgi",
+	"option3":"chmod o+w ~/www/cgi-bin/myapp.cgi"
+	},
+	{
+	"question":"Which Linux command is used to assign privileges over a particular file to a designated user",
+	
+	"option1":"chown",
+	"option2":"chroot",
+	"option3":"chgrp"
+	},
+	{
+	"question":"Suppose you have a running program called 'myprog', that is a child of the current shell. You would like to decrease the CPU usage of this program. Which of the following command lines can you use to make 'myprog' yield more CPU resources?",
+	
+	"option1":"renice +1 -p `ps -a | grep myprog | cut -b 1-6`",
+	"option2":"renice +1 -u `whoami` myprog",
+	"option3":" nice +1 myprog"
+	},
+	{
+	"question":"One advantage of hard links over symbolic links is:",
+	
+	"option1":"A hard link does not become disconnected from the underlying file if the file is moved.",
+	"option2":"A hard link can span different filesystems",
+	"option3":"A hard link allows you to change the permissions on the underlying file."
+	},
+	{
+	"question":"According to the Linux filesystem hierarchy standard, which of the following directories would be an appropriate location for a user to install a shared application to?",
+	
+	"option1":"/usr/local/bin",
+	"option2":"/dev/user/bin",
+	"option3":"/etc/bin"
+	},
+	{
+	"question":"Which of the following Linux command lines can be used to examine kernel bootup messages after boot time?",
+	
+	"option1":"dmesg | less",
+	"option2":"less /proc/kmsg",
+	"option3":"vi /var/log/messages"
+	},
+	{
+	"question":"Which command line can be used to restart a running Linux system immediately?",
+	
+	"option1":"shutdown -r now",
+	"option2":"reboot -w",
+	"option3":"restart --delay=0"
+	},
+	{
+	"question":"Suppose that you know that a task deals with the general concept floozflam, but you are not certain what Linux command(s) are available for working with floozflams. Which of the following Linux command lines would be the BEST first step in finding out about available tools?",
+	
+	"option1":"apropos floozflam",
+	"option2":"whatis floozflam",
+	"option3":"man floozflam"
+	},
+	{
+	"question":"Suppose you know that an application 'someapp' is installed on the current system. You have already examine the man and info pages for 'someapp', but are trying to find additional information about 'someapp'. Which of the following directories is the BEST first place to look for further documentation files?",
+	
+	"option1":"/usr/share/doc/someapp-2.37",
+	"option2":"/usr/local/doc/someapp-2.37",
+	"option3":"/etc/doc/someapp-2.37"
+	},
+{
+	"question":"Which of the following Linux commands are you likely to use to display hypertextual documentation on a command?",
+	
+	"option1":"info",
+	"option2":"man",
+	"option3":"whatis"
+	},
+{
+	"question":"Which of the following URLs is a BEST first internet site to go to for information about how to perform an unfamiliar Linux task?",
+	
+	"option1":"http://www.linuxdoc.org/",
+	"option2":"http://www.linuxman.com/",
+	"option3":"http://www.linuxhowto.net/"
+	},
+{
+	"question":"Suppose you have created an application that you wish to distribute to other users and system. Your application archive already contains the necessary executables, source code, and configuration files. But you would like to provide user with a quick explanation of the purpose and requirements of your application. Which of the following filenames BEST matches users' expectations about where first to look for application documentation",
+	
+	"option1":"README",
+	"option2":"MAKEFILE",
+	"option3":"FIRST"
+	},
+{
+	"question":"Which of the following Linux commands can be used to set an expiration date for a user's password?",
+	
+	"option1":"chage",
+	"option2":"vipw",
+	"option3":"passwd"
+	},
+{
+	"question":" jdoe:x:502:1000:John Doe:/home/jdoe:/bin/bash The exhibit for this question contains a line from the file '/etc/passwd'. Which of the following statements is true, based on the information in the exhibit?",
+	
+	"option1":"Shadow passwords are used on the current system.",
+	"option2":" User John Doe belongs to the group with groupID 502.",
+	"option3":"The username 'jdoe' belongs to the group 'jdoe'."
+	},
+{
+	"question":"Which Linux command can be used to create a new user account?",
+	
+	"option1":"useradd",
+	"option2":"mkuser",
+	"option3":"newuser"
+	},
+{
+	"question":"Which Linux command(s) can be used to modify the list of groups a user belongs to?",
+	
+	"option1":"usermod",
+	"option2":"groupadd",
+	"option3":"groups"
+	},
+{
+	"question":"Which Linux file can be used to configure the default bash shell behavior for EVERY users on a system?",
+	
+	"option1":"/etc/profile",
+	"option2":"/etc/skel/.bashrc",
+	"option3":"/etc/passwd"
+	},
+{
+	"question":"Which of the following BEST describes the purpose of the '/etc/skel' directory?",
+	
+	"option1":"The contents of the directory provide a default environment for newly created users.",
+	"option2":"The contents of the directory control the initialization of the shell environment during each login.",
+	"option3":"The contents of the directory determine the actions performed during the system boot process."
+	},
+{
+	"question":"Which of the following command lines would allow you to examine how many times remote users have opened secure shells into the current system?",
+	
+	"option1":"vi /var/log/messages",
+	"option2":" dmesg | less",
+	"option3":"sshd --log | more"
+	},
+{
+	"question":"Which of the following Linux commands can be used to create backups of filesystems and directories?",
+	
+	"option1":"tar",
+	"option2":"backup",
+	"option3":"gzip"
+	}
+]
+}

@@ -1,0 +1,17 @@
+{"quizlist":[
+  
+	{
+	"question":"Suppose that you have an application whose behavior depends on the environment variable BAR. Which of the following command lines may be used in a bash shell to configure the application?",
+	"option1":"BAR=baz ; export BAR",
+	"option2":"export $BAR=baz; echo $BAR",
+	"option3":"declare -x BAR=baz"
+	},
+	{
+	"question":"Suppose you have created a new application 'myapp', and copied it to the directory '/usr/local/bin'. You would like all the users of the system to be able to run your application. Which of the following command lines would allow the appropriate access?",
+	
+	"option1":"chmod o+x /usr/local/bin/myapp",
+	"option2":"chgrp bin /usr/local/bin/myapp",
+	"option3":"chown 755 /usr/local/bin/myapp"
+	}
+]
+}

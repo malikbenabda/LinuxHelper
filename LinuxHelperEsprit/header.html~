@@ -1,0 +1,90 @@
+
+
+
+<div class="navigation-header-clear"></div>
+
+
+<div class="page-navigation">
+
+	<div class="nav-clear"></div>
+
+
+    <div class="nav-item">
+        <a href="index.html">
+            <img src="images/home.png" class="imageMenu">
+                HomeScreen
+        </a>
+    </div> <!-- div nav-item --> 
+
+
+    <div class="nav-item">
+        <a href="searchEngine.html">
+            <img src="images/searchScope.png" class="imageMenu">
+                SearchEngine
+        </a>
+    </div> <!-- div nav-item --> 
+
+    <div class="nav-item">
+        <a href="searchEngine.html">
+            <img src="images/historyIcon.png" class="imageMenu">
+                LinuxHitory
+        </a>
+    </div> <!-- div nav-item --> 
+
+    <div class="nav-item">
+        <a class="submenu-deploy" href="#">
+            <img src="images/tips.png" class="imageMenu">
+                tips
+            <i class="fa fa-angle-down"></i>
+        </a>
+        <div class="submenu-items">
+            <a href="beginner.html"> <img src="images/tips/troll.png" class="imageMenu"> Begginer </a>
+            <a href="virtualbox.html"> <img src="images/tips/intermediate.png" class="imageMenu"> Intermediaire </a>
+            <a href="vim.html"> <img src="images/tips/pro.png" class="imageMenu"> Difficile </a>
+        </div> <!-- div submenu-deploy --> 
+    </div> <!-- div nav-item --> 
+
+    <div class="nav-item">
+        <a class="submenu-deploy" href="#">
+            <img src="images/tutos.png" class="imageMenu">
+                Tutorial
+        </a> 
+        <div class="submenu-items">
+
+        </div>
+    </div> <!-- div nav-item --> 
+
+
+    <div class="nav-item">
+        <a class="submenu-deploy" href="#">
+            <img src="images/tools.png" class="imageMenu">
+                Tools
+            <i class="fa fa-angle-down"></i>
+        </a>
+        <div class="submenu-items">
+            <a href="gimp.html"> <img src="images/pictures/gimp.png" class="imageMenu"> Gimp </a>
+            <a href="gparted.html"> <img src="images/pictures/gparted.png" class="imageMenu"> Gparted </a>
+            <a href="virtualbox.html"> <img src="images/pictures/virtualbox.png" class="imageMenu"> VirtualBox </a>
+            <a href="vim.html"> <img src="images/pictures/vim.png" class="imageMenu"> Vim </a>
+        </div>
+    </div> <!-- div nav-item --> 
+
+
+    <div class="nav-item">
+        <a class="submenu-deploy" href="#">
+            <img src="images/quizz.png" class="imageMenu">
+                Quizz
+        </a>
+
+        <div class="submenu-items">
+
+        </div>
+    </div> <!-- div nav-item --> 
+
+    <div class="nav-item">
+        <a href="contact.html">
+            <img src="images/test.png" class="imageMenu">
+                Test
+        </a>       
+    </div> <!-- div nav-item --> 
+</div> <!-- div page-navigation -->      

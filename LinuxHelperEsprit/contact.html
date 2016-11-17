@@ -1,0 +1,303 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png">
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" 			media="screen and (max-device-width: 320px)" />  
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen@2x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+<link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen@3x.png" />
+<link rel="apple-touch-startup-image" sizes="1024x748" href="images/splash/splash-screen-ipad-landscape" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)" />
+<link rel="apple-touch-startup-image" sizes="768x1004" href="images/splash/splash-screen-ipad-portrait.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)" />
+<link rel="apple-touch-startup-image" sizes="1536x2008" href="images/splash/splash-screen-ipad-portrait-retina.png"   media="(device-width: 768px)	and (orientation: portrait)	and (-webkit-device-pixel-ratio: 2)"/>
+<link rel="apple-touch-startup-image" sizes="1496x2048" href="images/splash/splash-screen-ipad-landscape-retina.png"   media="(device-width: 768px)	and (orientation: landscape)	and (-webkit-device-pixel-ratio: 2)"/>
+
+<title>Epsilon Mobile Framework - Version 2.0</title>
+
+<link href="styles/style.css"     		 rel="stylesheet" type="text/css">
+<link href="styles/framework.css" 		 rel="stylesheet" type="text/css">
+<link href="styles/owl.carousel.css" 	 rel="stylesheet" type="text/css">
+<link href="styles/owl.theme.css" 		 rel="stylesheet" type="text/css">
+<link href="styles/swipebox.css"		 rel="stylesheet" type="text/css">
+<link href="styles/font-awesome.css"	 rel="stylesheet" type="text/css">
+<link href="styles/animate.css"			 rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/jqueryui.js"></script>
+<script type="text/javascript" src="scripts/framework.plugins.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript" >
+
+			document.addEventListener('tizenhwkey', function(e) {
+			    if(e.keyName == "back") {
+			        try {
+			        	window.history.back();
+			        } catch (error) {
+			            console.error("getCurrentApplication(): " + error.message);
+			        }
+			    }
+			});
+
+</script>
+
+
+         <script type="text/javascript">
+
+function sendMail() {
+    var link = "mailto:esprit.linux.helper@gmail.com"
+                 + "?cc="
+                 + "&subject=" + escape("From a Linux Helper user")
+                + "&body=" + escape(document.getElementById('myText').value)
+                ;
+               window.location.href = link;
+}
+
+</script>
+
+
+</head>
+<body>
+
+<div id="preloader">
+	<div id="status">
+    	<p class="center-text">
+			Loading the content...
+            <em>Loading depends on your connection speed!</em>
+        </p>
+    </div>
+</div>
+
+<div class="navigation-header">
+	<a class="deploy-navigation" href="#"> <img src="images/down.png" class="imageMenuTop"> </a>
+    <a class="close-navigation" href="#"> <img src="images/up.png" class="imageMenuTop"></a>
+    <em>Contact</em>
+    <a href="contact.html"></a>
+</div> <!-- navigation-header --> 
+
+
+
+<div class="navigation-header-clear"></div>
+
+
+<div class="page-navigation">
+
+	<div class="nav-clear"></div>
+
+
+    <div class="nav-item">
+        <a href="index.html">
+            <img src="images/home.png" class="imageMenu">
+                HomeScreen
+        </a>
+    </div> <!-- div nav-item --> 
+
+
+    <div class="nav-item">
+        <a href="searchEngine.html">
+            <img src="images/searchScope.png" class="imageMenu">
+                SearchEngine
+        </a>
+    </div> <!-- div nav-item --> 
+
+    <div class="nav-item">
+        <a href="history.html">
+            <img src="images/historyIcon.png" class="imageMenu">
+                LinuxHitory
+        </a>
+    </div> <!-- div nav-item --> 
+
+    <div class="nav-item">
+        <a class="submenu-deploy" href="#">
+            <img src="images/tips.png" class="imageMenu">
+                tips
+            <i class="fa fa-angle-down"></i>
+        </a>
+        <div class="submenu-items">
+            <a href="beginner.html"> <img src="images/tips/troll.png" class="imageMenu"> Begginer </a>
+            </div> <!-- div submenu-deploy --> 
+    </div> <!-- div nav-item --> 
+
+    <div class="nav-item">
+        <a href="tutorial.html">
+            <img src="images/tutos.png" class="imageMenu">
+                Tutorial
+        </a> 
+        <div class="submenu-items">
+
+        </div>
+    </div> <!-- div nav-item --> 
+
+
+    <div class="nav-item">
+        <a class="submenu-deploy" href="#">
+            <img src="images/tools.png" class="imageMenu">
+                Tools
+            <i class="fa fa-angle-down"></i>
+        </a>
+        <div class="submenu-items">
+            <a href="gimp.html"> <img src="images/pictures/gimp.png" class="imageMenu"> Gimp </a>
+            <a href="gparted.html"> <img src="images/pictures/gparted.png" class="imageMenu"> Gparted </a>
+            <a href="virtualbox.html"> <img src="images/pictures/virtualbox.png" class="imageMenu"> VirtualBox </a>
+            <a href="vim.html"> <img src="images/pictures/vim.png" class="imageMenu"> Vim </a>
+        </div>
+    </div> <!-- div nav-item --> 
+
+
+    <div class="nav-item">
+        <a href="quizz.html">
+            <img src="images/quizz.png" class="imageMenu">
+                Quizz
+        </a>
+
+        <div class="submenu-items">
+
+        </div>
+    </div> <!-- div nav-item --> 
+
+    <div class="nav-item">
+        <a href="test.html">
+            <img src="images/test.png" class="imageMenu">
+                Test
+        </a>       
+    </div> <!-- div nav-item --> 
+</div> <!-- div page-navigation -->  
+
+<div class="maps-container">
+
+ 
+    <iframe class="responsive-image maps" src="https://maps.google.com/?ie=UTF8&amp;ll=36.8989834,10.1897113&amp;spn=0.006186,0.016512&amp;t=h&amp;z=17&amp;output=embed"></iframe>
+
+</div>
+
+<div class="content">
+    <div class="decoration"></div>
+    <div class="one-half-responsive">
+        <h4>Send us an email!</h4>
+
+
+
+        <p>Use the form to send us a message</p>
+        <div class="container no-bottom">
+            <div class="contact-form no-bottom"> 
+                <div class="formSuccessMessageWrap" id="formSuccessMessageWrap">
+                    <div class="big-notification green-notification">
+                        <h3 class="uppercase">Message Sent </h3>
+                        <a href="#" class="close-big-notification">x</a>
+                        <p>Your message has been successfuly sent. Please allow up to 48 hours for a reply! Thank you!</p>
+                    </div>
+                </div>
+            
+                <form action="php/contact.php" method="post" class="contactForm" id="contactForm">
+                    <fieldset>
+                        <!--
+                        <div class="formValidationError" id="contactNameFieldError">
+                            <div class="static-notification-red tap-dismiss-notification">
+                                <p class="center-text uppercase">Name is required!</p>
+                            </div>
+                        </div>             
+                        <div class="formValidationError" id="contactEmailFieldError">
+                            <div class="static-notification-red tap-dismiss-notification">
+                                <p class="center-text uppercase">Mail address required!</p>
+                            </div>
+                        </div> 
+                        <div class="formValidationError" id="contactEmailFieldError2">
+                            <div class="static-notification-red tap-dismiss-notification">
+                                <p class="center-text uppercase">Mail address must be valid!</p>
+                            </div>
+                        </div> 
+                        <div class="formValidationError" id="contactMessageTextareaError">
+                            <div class="static-notification-red tap-dismiss-notification">
+                                <p class="center-text uppercase">Message field is empty!</p>
+                            </div>
+                        </div>   
+                        <div class="formFieldWrap">
+                            <label class="field-title contactNameField" for="contactNameField">Name:<span>(required)</span></label>
+                            <input type="text" name="contactNameField" value="" class="contactField requiredField" id="contactNameField"/>
+                        </div>
+                        <div class="formFieldWrap">
+                            <label class="field-title contactEmailField" for="contactEmailField">Email: <span>(required)</span></label>
+                            <input type="text" name="contactEmailField" value="" class="contactField requiredField requiredEmailField" id="contactEmailField"/>
+                        </div>
+                        --> 
+                        <div class="formTextareaWrap">
+                            <label class="field-title contactEmailField" for="contactEmailField">Email: <span>(required)</span></label>
+                            <textarea id="myText" type="text" name="contactEmailField" class="contactField requiredField requiredEmailField" id="contactEmailField"/>
+
+                            </textarea>
+
+                                          <!--
+                            <label class="field-title contactMessageTextarea" for="contactMessageTextarea">Message: <span>(required)</span></label>
+                            <textarea name="contactMessageTextarea" class="contactTextarea requiredField" id="contactMessageTextarea"></textarea>
+                                          --> 
+                        </div>
+
+                        <div class="formSubmitButtonErrorsWrap">
+                                          <button class="buttonWrap button button-green contactSubmitButton" onclick="sendMail(); return false">Send</button>
+
+                                          <!--
+                            <input type="submit" class="buttonWrap button button-green contactSubmitButton" id="contactSubmitButton" value="Send message" data-formId="contactForm"/>
+                                          --> 
+                        </div>
+                    </fieldset>
+                </form>       
+            </div>
+        </div>
+    </div>
+    <div class="decoration hide-if-responsive"></div>
+    <div class="one-half-responsive last-column">
+        <div class="container no-bottom">
+            <h4>Contact Information</h4>
+            <p>
+                <strong>Postal Information</strong><br>
+                Esprit Ariana soghra<br>
+                Ariana 7000 Tunisia
+            </p>
+            <p>
+                <strong>Contact Information:</strong><br>
+                <div class="reseau">
+                <a href="#" class="contact-mail"> <img src="images/reseau/gmail.svg" class="logoReseau" >&nbsp;&nbsp; esprit.linux.helper@gmail.com</a>
+                </div>
+                <div class="reseau">
+                <a href="#" class="contact-twitter"> <img src="images/reseau/twitter.svg" class="logoReseau" > &nbsp;&nbsp; @LinuxHelper</a>
+                </div>
+                <div class="reseau">
+                <a href="https://www.facebook.com/GnuLinuxHelper" class="contact-facebook"> <img src="images/reseau/facebook.svg" class="logoReseau"> &nbsp;&nbsp; LinuxHelper</a>
+                </div>
+                <div class="reseau">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/GnuLinuxHelper" class="contact-facebook" target="_blank">
+                                                                                    <img src="images/reseau/partage.svg" class="logoReseau" > 
+                                                                                     &nbsp;&nbsp; Share our Page 
+                                                                                     </a>
+                </div>
+            </p>
+        </div>
+    </div>
+     
+    <div class="decoration"></div>
+    <div class="footer-section">
+    </div> 
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
