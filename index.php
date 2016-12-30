@@ -1,6 +1,3 @@
-<?php header("Location: LinuxHelperEsprit/index.html"); /* Redirect browser */
-exit() ;
-?>
 <!DOCTYPE HTML>
 <html lang="en-US">
     <head>
